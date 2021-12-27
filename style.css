@@ -6,16 +6,16 @@
  
  body {
    min-height: 100vh;
-   
+   font-family: 'Bebas Neue', cursive;
+
  }
  
- 
-
 
  .side-navbar {
+   position: fixed;
+   top: 0;
    width: 180px;
    height: 100%;
-   position: fixed;
    margin-left: -300px;
    background-color: #100901;
    transition: 0.5s;
@@ -53,9 +53,12 @@
  }
  
  #menu-btn {
+   border-radius: 10px;
+  font-size: 20px;
    background-color: #100901;
    color: #fff;
    margin-left: -62px;
+   
  }
  
  .my-container input {
@@ -63,10 +66,38 @@
    padding: 2px 20px;
  }
 
-
+ .main-head {
+   position: relative;
+   font-size: 5.5vw;
+   text-align: center; 
+   margin: 5px;
+ }
 
   .head {
-    width: 100%;
+    max-width: 100%;
     height: auto;
+    margin: 0px;
   }
 
+  /* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: rgba(156, 151, 151, 0.089); /* Grey background */
+}
+
+.skills {
+  text-align: center; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {width: 90%; background-color: #000000;} /* Green */
+.css {width: 80%; background-color: #5e17eb;} /* Blue */
+.js {width: 65%; background-color: #000000;} /* Red */
+.bootstrap {width: 60%; background-color: #5e17eb;} /* Dark Grey */
+.react {width: 25%; background-color: #000000;} /* Dark Grey */
+.python {width: 0px; padding: 5px; background-color: #5e17eb;} 

@@ -6,4 +6,9 @@
         sidebar.classList.toggle("active-nav");
         container.classList.toggle("active-cont");
       });
+
+      function spin() {
+        var x = document.getElementById("spinner").style.display = "block";
+
+      }
     

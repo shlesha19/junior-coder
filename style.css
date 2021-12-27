@@ -68,7 +68,7 @@
 
  .main-head {
    position: relative;
-   font-size: 5.5vw;
+   font-size: 7vw;
    text-align: center; 
    margin: 5px;
  }
@@ -90,8 +90,8 @@
 
 .skills {
   text-align: center; /* Right-align text */
-  padding-top: 10px; /* Add top padding */
-  padding-bottom: 10px; /* Add bottom padding */
+  padding-top: 5px; /* Add top padding */
+  padding-bottom: 5px; /* Add bottom padding */
   color: white; /* White text color */
 }
 

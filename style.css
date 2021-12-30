@@ -101,3 +101,21 @@
 .bootstrap {width: 60%; background-color: #5e17eb;} /* Dark Grey */
 .react {width: 25%; background-color: #000000;} /* Dark Grey */
 .python {width: 0px; padding: 5px; background-color: #5e17eb;} 
+
+#video-tutorials {
+  margin-left: 6%;
+}
+
+.box {
+  display: inline-block;
+}
+
+.video {
+  display: inline-block;
+  margin: 10px;
+  min-height: 300px;
+  height: auto;
+  width: 350px;
+  box-shadow: 4px 15px 18px 16px #8d8d8d;
+  border-radius: 20px;
+}
